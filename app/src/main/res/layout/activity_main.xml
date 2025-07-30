@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#283E2F"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="71dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C8BC42"
+        android:textColor="#040202"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="71dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C8BC42"
+        android:textColor="#040202"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <Button
+        android:id="@+id/pr"
+        android:layout_width="71dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C8BC42"
+        android:textColor="#040202"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="71dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C8BC42"
+        android:textColor="#040202"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="196dp"
+        android:layout_height="247dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="321dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="24dp"
+        android:text="YOUR FAVOURITE CAT APP"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#F0F0F0"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/vid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="videos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" photos"
+        android:textColor="#020202"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my cat"
+        android:textColor="#0B0B0B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="breeds"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
