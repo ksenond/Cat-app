@@ -1,3 +1,4 @@
+Kseniia Dmitrieva 001760129
 # 🐾 Catapp – A Fun Android App for Cat Lovers
 
 This is the final project for the **Software Development Skills:Mobile** course at LUT University.  
