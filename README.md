@@ -66,5 +66,4 @@ Includes:
    git clone https://github.com/ksenond/cat-app.git
 
 ### link to my youtube video:
-[
-](https://youtu.be/0ivv_rqEHlQ)
+https://youtu.be/0ivv_rqEHlQ
